@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+  overflow:hidden;
+  min-height:100%;
+  position:relative;
+}
+
+.navbar {
+  background-color: rgba(47, 111, 214);
+  color: rgba(214, 198, 140, 1);
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.user-admin {
+  text-align: left;
+  padding: 5px;
+  font-size: small;
+}
+
+.navlink {
+  padding: 5px;
+  color: rgba(214, 198, 140, 1);
+  text-decoration: none;
+  font-size: small;
+}
+
+.header {
+  background-color: rgba(47, 111, 214);
+  font-variant: small-caps;
+  font-size: x-large;
+  padding: 1px;
+  line-height: 95%;
+  top: 0px;
+  width: 100%;
+}
+
+.title {
+  font-family: 'Palatino Linotype', Arial;
+  color: rgba(214, 198, 140);
+}
+
+.catch-phrase {
+  font-size: large;
+  color: rgba(214, 198, 140);
+}
+
+.flagged-red {
+  color: rgba(244, 0, 0);
+}
+
+.reports-table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.reports-table {
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse: collapse;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.table-header th{
+    border: 1px solid #ddd;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table-row td {
+    border: 1px solid #ddd;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.report-form {
+  margin-top: 20px;
+  border-right: 5px solid;
+  border-right-color: #f7eed2;
+  border-bottom: 5px solid;
+  border-bottom-color: #f6f0bb;
+  width:400px;
+  padding-top:5px;
+  padding-bottom:40px;
+  padding-left:25px;
+  padding-right: 25px;
+  background-color: #f5f5d2;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  text-align: left;
+}
+
+.report-form input[type=text], input[type=url], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.report-form input:required, textarea:required {
+    box-shadow:none;
+}
+.report-form input:invalid {
+    box-shadow:0 0 3px red;
+}
+
+.report-form button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.report-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.report-form-title {
+  text-align: center;
+}
+
+.user-form {
+  margin-top: 20px;
+  border-right: 5px solid;
+  border-right-color: #f7eed2;
+  border-bottom: 5px solid;
+  border-bottom-color: #f6f0bb;
+  width:200px;
+  padding-top:5px;
+  padding-bottom:20px;
+  padding-left:25px;
+  padding-right: 25px;
+  background-color: #f5f5d2;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  text-align: left;
+}
+
+.user-form input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.user-form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.report-box {
+  margin-top: 20px;
+  border-right: 5px solid;
+  border-right-color: #f7eed2;
+  border-bottom: 5px solid;
+  border-bottom-color: #f6f0bb;
+  width:400px;
+  padding-top:5px;
+  padding-bottom:20px;
+  padding-left:25px;
+  padding-right: 25px;
+  background-color: #f5f5d2;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  text-align: left;
+
+}
+.wrapper {
+  min-height: calc(100vh - 264px);
+  padding: 10px;
+  padding-bottom:60px;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(47, 111, 214);
+  bottom: 0px;
+  color: rgba(214, 198, 140, 1);
+  position:absolute;
+}
+
+.welcome-note {
+  margin-top: 20px;
+  border-right: 5px solid;
+  border-right-color: #f7eed2;
+  border-bottom: 5px solid;
+  border-bottom-color: #f6f0bb;
+  width:450px;
+  padding-top:0px;
+  padding-bottom:20px;
+  padding-left:25px;
+  padding-right: 25px;
+  background-color: #f5f5d2;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  text-align: left;
+}
+
+.hidden-link {
+  text-decoration: none;
+  color: rgba(214, 198, 140, 1);
+  cursor: text;
+}
